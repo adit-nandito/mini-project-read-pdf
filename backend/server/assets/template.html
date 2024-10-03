@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bukti Potong Pajak</title>
+  <style>
+    ol {
+      padding-left: 15px !important;
+      margin-top: 0px !important;
+    }
+
+    ul {
+      padding-left: 30px !important;
+      margin-top: 0px !important;
+    }
+  </style>
+</head>
+
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif; line-height:1.5">
+	<div>
+    <h2 style="color: #2e6c80; text-align: center">BUKTI POTONG PAJAK PEMBELIAN BARANG</h2>
+    <div style="font-size: 13px;"><strong>H.1 NOMOR: </strong>{{h1}}</div>
+    <div style="font-size: 13px;"><strong>H.2 Pembetulan ke-: </strong>{{h2}}</div>
+    <A. style="color: #2e6c80; font-size: medium;"><strong>A. IDENTITAS WAJIB PAJAK YANG DIPOTONG/DIPUNGUT</strong></div>
+    <ol style="list-style-type: none; font-size: 14px;">
+      <li><strong>A.1 NPWP: </strong>{{a1}}</li>
+      <li><strong>A.2 NIK: </strong>{{a2}}</li>
+      <li><strong>A.3 NAMA: </strong>{{a3}}</li>
+    </ol>
+      <div style="color: #2e6c80; font-size: medium;"><strong>B. PAJAK PENGHASILAN YANG DIPOTONG/DIPUNGUT</strong></div>
+    <ol style="list-style-type: none; font-size: 14px;">
+      <li><strong>B.1 Masa Pajak: </strong>{{b1}}</li>
+      <li><strong>B.2 Kode Objek Pajak: </strong>{{b2}}</li>
+      <li><strong>B.3 Dasar Pengenaan Pajak (Rp): </strong>{{b3}}</li>
+      <li><strong>B.4 Dikenakan Tarif Lebih Tinggi (Tidak Memiliki NPWP): </strong>{{b4}}</li>
+      <li><strong>B.5 Tarif (%): </strong>{{b5}}</li>
+      <li><strong>B.6 PPh yang Dipungut/Dipotong/DTP (Rp): </strong>{{b6}}</li>
+      <li><strong>B.7 Dokumen Referensi:</strong></li>
+        <ul style="list-style-type: disc;">
+          <li><strong>Nomor Dokumen: </strong>{{b7_docrefnum}}</li>
+          <li><strong>Nomor Referensi: </strong>{{b7_docrefname}}</li>
+          <li><strong>Tanggal: </strong>{{b7_docrefdate}}</li>
+        </ul>
+      <li><strong>B.8 Dokumen Referensi untuk Faktur Pajak, apabila ada:</strong></li>
+        <ul style="list-style-type: disc;">
+          <li><strong>Nomor Faktur Pajak: </strong>{{b8_fakturpajak}}</li>
+          <li><strong>Tanggal: </strong>{{b8_fakturpajakdate}}</li>
+        </ul>
+      <li><strong>B.9 PPh yang dibebankan berdasarkan Surat Keterangan Bebas (SKB).</strong></li>
+        <ul style="list-style-type: disc;">
+          <li><strong>Nomor: </strong>{{b9_skb}}</li>
+          <li><strong>Tanggal: </strong>{{b9_skbdate}}</li>
+        </ul>
+      <li><strong>B.10 PPh yang ditanggung oleh Pemerintah (DTP) berdasarkan: </strong>{{b10}}</li>
+      <li><strong>B.11 PPh dalam transaksi menggunakan Surat Keterangan berdasarkan PP Nomor 23 Tahun 2018 dengan Nomor: </strong>{{b11}}</li>
+      <li><strong>B.12 PPh yang dipotong/dipungut yang diberikan fasilitas PPh berdasarkan: </strong>{{b12}}</li>
+    </ol>
+    <div style="color: #2e6c80; font-size: medium;"><strong>C. IDENTITAS PEMOTONG/PEMUNGUT</strong></div>
+    <ol style="list-style-type: none;  font-size: 14px;">
+      <li><strong>C.1 NPWP: </strong>{{c1}}</li>
+      <li><strong>C.2 Nama Wajib Pajak: </strong>{{c2}}</li>
+      <li><strong>C.3 Tanggal: </strong>{{c3}}</li>
+      <li><strong>C.4 Nama Penandatangan: </strong>{{c4}}</li>
+      <li><strong>C.5 Pernyataan Wajib Pajak: </strong>Dengan ini saya menyatakan bahwa bukti Pemotongan/Pemungutan telah saya isi dengan benar dan telah saya tandatangani secara elektronik</li>
+    </ol>
+  </div>
+</body>
+</html>
